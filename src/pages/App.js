@@ -1,9 +1,8 @@
+import Router from '../hoc/Router';
 
-function App() {
+const App = () => {
   return (
-    <div className="text-white">
-      Hello World
-    </div>
+    <Router/>
   );
 }
 
